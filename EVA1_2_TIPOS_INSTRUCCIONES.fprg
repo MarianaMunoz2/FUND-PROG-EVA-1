@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="invitado"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-08-31 08:44:03 p. m."/>
+        <attribute name="created" value="aW52aXRhZG87TEFCMDIwMzIxOzIwMjMtMDgtMzE7MDg6MTE6MzAgcC4gbS47MjgyOQ=="/>
+        <attribute name="edited" value="aW52aXRhZG87TEFCMDIwMzIxOzIwMjMtMDgtMzE7MDg6NDQ6MDMgcC4gbS47MjsyOTQ0"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="HABRAM" type="Integer" array="False" size=""/>
+            <assign variable="HABRAM" expression="10"/>
+            <output expression="&quot;HOLA MAX&quot;" newline="True"/>
+            <output expression="&quot;MARIANA COMPRAME UNAS TAKIS &quot;" newline="True"/>
+            <output expression="HABRAM" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
