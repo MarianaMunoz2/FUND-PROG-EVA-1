@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="MAX"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-09-11 07:46:04 p.m."/>
+        <attribute name="created" value="TUFYO0RFU0tUT1AtQlNCTExNTzsyMDIzLTA5LTA4OzA2OjU5OjExIHAubS47Mjc4Mg=="/>
+        <attribute name="edited" value="TUFYO0RFU0tUT1AtQlNCTExNTzsyMDIzLTA5LTExOzA3OjQ2OjA0IHAubS47NjsyODg4"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="marca" type="String" array="False" size=""/>
+            <declare name="modelo" type="String" array="False" size=""/>
+            <declare name="a&#241;o" type="Integer" array="False" size=""/>
+            <declare name="precio" type="Real" array="False" size=""/>
+            <output expression="&quot;marca del auto&quot;" newline="True"/>
+            <input variable="marca"/>
+            <output expression="&quot;modelo del auto&quot;" newline="True"/>
+            <input variable="modelo"/>
+            <output expression="&quot;a&#241;o del vehiculo&quot;" newline="True"/>
+            <input variable="a&#241;o"/>
+            <output expression="&quot;precio&quot;" newline="True"/>
+            <output expression="marca" newline="True"/>
+            <output expression="precio" newline="True"/>
+            <output expression="a&#241;o" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="irism"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-09-12 07:41:45 p. m."/>
+        <attribute name="created" value="aXJpc207TEFQVE9QTUFSSUFOQTsyMDIzLTA5LTEyOzA3OjA0OjIwIHAuIG0uOzI5ODE="/>
+        <attribute name="edited" value="aXJpc207TEFQVE9QTUFSSUFOQTsyMDIzLTA5LTEyOzA3OjQxOjQ1IHAuIG0uOzU7MzEwMQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="base" type="Real" array="False" size=""/>
+            <declare name="altura" type="Real" array="False" size=""/>
+            <declare name="area" type="Real" array="False" size=""/>
+            <output expression="&quot;Introduce la base del tri&#225;ngulo:&quot;" newline="True"/>
+            <input variable="base"/>
+            <output expression="&quot;Introduce la altura del tri&#225;ngulo:&quot;" newline="True"/>
+            <input variable="altura"/>
+            <assign variable="area" expression="(base * altura) / 2"/>
+            <output expression="&quot;El &#225;rea de tu tri&#225;ngulo es:&quot;" newline="True"/>
+            <output expression="area" newline="True"/>
+            <output expression="&quot;:)&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
